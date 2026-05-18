@@ -1,2 +1,59 @@
-# Mall-Project
-This is a distributed, high-quality e-commerce platform project that imitates Taobao.
+# 🛍️ 天天淘好物 
+
+> **项目状态：** 学习项目 / 个人作品
+> **项目描述：** 本项目是全栈电商商城系统。旨在通过实战掌握企业级应用开发流程，涵盖了商品展示、购物车、订单处理等核心电商功能。
+
+<div align="center">
+  <img src="https://imgs.design006.com/202302/Design006_2FEXxeaTsk.jpg?x-oss-process=style/prev_w_750_h_auto" alt="黑马商城 UI 预览" width="600"/>
+  <p>图示：商城前台界面展示（基于享设计素材）</p>
+</div>
+
+---
+
+## 🚀 项目介绍
+
+这是一个模拟真实电商场景的综合实战项目。项目严格遵循企业开发规范，采用前后端分离架构。后端负责数据处理与业务逻辑，前端负责页面渲染与交互，实现了高内聚、低耦合的设计目标。
+
+### 核心功能模块（包括但不限于）
+- **用户模块**：登录认证、个人信息管理。
+- **商品模块**：商品分类展示、商品详情查看、商品搜索。
+- **交易模块**：购物车管理、订单生成、订单支付（模拟）。
+
+---
+
+## 🛠️ 技术栈与架构
+
+本项目采用了主流的微服务或单体架构：
+### 微服务架构
+- **后端**：SpringCloud (Alibaba) + Nacos (注册中心/配置中心) + Gateway (网关)
+- **数据库**：MySQL (存储业务数据) + Redis (缓存加速)
+- **前端**：Vue3 + Vite + Pinia + Axios
+- **中间件**：RabbitMQ (消息队列) / XXL-JOB (定时任务)
+
+---
+
+## ⚙️ 依赖环境与中间件
+
+为了保证项目能够顺利运行，请确保你的开发环境满足以下要求：
+| 组件类型 | 名称 | 版本/要求 | 说明 |
+| :--- | :--- | :--- | :--- |
+| **开发语言** | Java | 17+ 或 8+ | 根据具体要求选择 |
+| **数据库** | MySQL | 5.7 / 8.0 | 存储用户、商品、订单数据 |
+| **缓存中间件** | Redis | 6.0+ | 用于缓存热点数据、Session共享 |
+| **构建工具** | Maven | 3.6+ | 依赖管理 |
+| **开发工具** | IDE | IntelliJ IDEA | 推荐使用 |
+| **前端环境** | Node.js | 16+ | 运行 Vue 项目 |
+
+---
+
+## 📂 目录结构 (示例，仅供参考)
+
+```text
+mall/
+├── mall-common/          # 通用工具类与常量
+├── mall-service/         # 业务逻辑层 (Service)
+├── mall-dao/             # 数据访问层 (DAO/Mapper)
+├── mall-web/             # 控制层 (Controller/Web)
+├── mall-api/             # 接口文档或 Feign 接口 (微服务用)
+├── mall-front/           # 前端项目目录
+└── pom.xml               # Maven 父工程配置
