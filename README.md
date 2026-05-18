@@ -1,11 +1,9 @@
 # 🛍️ 天天淘好物 
 
-> **项目状态：** 学习项目 / 个人作品
 > **项目描述：** 本项目是全栈电商商城系统。旨在通过实战掌握企业级应用开发流程，涵盖了商品展示、购物车、订单处理等核心电商功能。
 
 <div align="center">
   <img src="https://imgs.design006.com/202302/Design006_2FEXxeaTsk.jpg?x-oss-process=style/prev_w_750_h_auto" alt="黑马商城 UI 预览" width="600"/>
-  <p>图示：商城前台界面展示（基于享设计素材）</p>
 </div>
 
 ---
