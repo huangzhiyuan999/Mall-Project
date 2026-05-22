@@ -1,0 +1,52 @@
+# Maven
+target/
+*.war
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - Eclipse
+.buildpath
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+~$*
+
+# Logs
+logs/
+*.log
+
+# JWT Keystore (sensitive - generate your own)
+**/*.jks
+**/*.p12
+**/*.pem
+**/*.key
+
+# Local configuration (contains local credentials and IPs)
+**/application-local.yaml
+
+# Environment specific
+.env
+.env.local
+
+# Test results
+test-output/
+surefire-reports/
