@@ -1,0 +1,6 @@
+hm:
+  db:
+    host: ${hm.db.host:mysql}
+    pw: ${hm.db.pw:123}
+  jwt:
+    password: ${hm.jwt.password:hmall123}
